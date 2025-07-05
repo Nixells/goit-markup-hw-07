@@ -1,9 +1,13 @@
 .footer {
-  @media screen and (max-width: 428px) {
+  @media screen and (min-width: 0px) {
     color: $white-color;
     margin: 0 auto;
-    width: 428px;
     display: block;
+  }
+
+  @media screen and (min-width: 429px) {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -46,9 +50,21 @@
 }
 
 .WebStudio-footer .link-webstudio {
-  @media screen and (max-width: 428px) {
+  @media screen and (min-width: 0px) {
     display: block;
     text-align: center;
+  }
+
+  @media screen and (min-width: 429px) {
+    text-align: start;
+  }
+}
+
+.WebStudio-footer {
+  @media screen and (min-width: 429px) {
+    width: 264px;
+    height: 112px;
+    margin-right: 24px;
   }
 }
 
@@ -68,7 +84,13 @@
 }
 
 footer .form-subscribe {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
+  @media screen and (min-width: 0px) {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+footer .social-media .list {
+  width: 208px;
 }

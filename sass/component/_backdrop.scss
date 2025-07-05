@@ -7,6 +7,7 @@
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 1;
   transition: opacity 250ms $animation-cubic;
+  z-index: 1;
 }
 
 .backdrop.is-hidden {

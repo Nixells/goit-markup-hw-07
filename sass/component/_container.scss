@@ -61,11 +61,17 @@
 
 .container-margin.footer {
   background-color: $primary-color;
-  @media screen and (max-width: 428px) {
+  @media screen and (min-width: 0px) {
     width: 428px;
     height: 664px;
     padding-bottom: 100px;
     padding-top: 100px;
+  }
+
+  @media screen and (min-width: 429px) {
+    width: 768px;
+    height: 456px;
+    padding: 96px 108px;
   }
 }
 
