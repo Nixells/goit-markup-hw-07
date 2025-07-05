@@ -1,0 +1,26 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: $body-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+body li {
+  list-style-type: none;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list p {
+  margin: 0px;
+  padding: 0px;
+}

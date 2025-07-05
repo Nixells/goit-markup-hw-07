@@ -1,0 +1,53 @@
+.modal-input .policy-icon {
+  position: absolute;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  fill: $primary-color;
+  transition: background-color 250ms $animation-cubic;
+}
+
+.checkbox:checked ~ .policy-icon {
+  background-color: $button-portfolio;
+  background-image: url("../images/galka.svg");
+  background-position: center;
+}
+
+.input-icon.name {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  width: 18px;
+  height: 24px;
+  transform: translateY(-50%);
+}
+
+.input-icon.phone {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  width: 18px;
+  height: 24px;
+  transform: translateY(-50%);
+}
+
+.input-icon.mail {
+  position: absolute;
+  left: 16px;
+  width: 18px;
+  height: 24px;
+  transform: translateY(-135%);
+}
+
+.modal-input .input-icon {
+  fill: $primary-color;
+  transition: fill 250ms $animation-cubic;
+}
+
+.modal-input input[name="register"]:focus + .input-icon {
+  fill: $web;
+}

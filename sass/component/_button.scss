@@ -1,0 +1,60 @@
+.button {
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 250ms $animation-cubic,
+    color 250ms $animation-cubic;
+}
+
+.background .button {
+  text-align: center;
+  color: $white-color;
+  background-color: $web;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button.portfolio {
+  background-color: $bg-secondary;
+  color: $web;
+  border-color: $but-border;
+}
+
+.button.order {
+  display: block;
+  margin: auto;
+  border-color: $white-color;
+  top: 428px;
+  left: 636px;
+  gap: 10px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border-radius: 4px;
+}
+
+.button.portfolio:hover,
+.button.portfolio:focus,
+div .button.order:hover,
+div .button.order:focus,
+.modal-submit:hover,
+.modal-submit:focus {
+  background-color: $button-portfolio;
+  color: $white-color;
+  border-color: $web;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: $button-portfolio;
+  color: $white-color;
+  border-color: $web;
+}

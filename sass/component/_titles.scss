@@ -1,0 +1,92 @@
+.content-portfolio .third-title {
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.container-margin.footer .third-title {
+  color: $white-color;
+}
+
+.primary.title {
+  text-align: center;
+  margin: 0 auto;
+  color: $white-color;
+  margin-top: 0px;
+  margin-bottom: 48px;
+
+  @media screen and (min-width: 0px) {
+    width: 320px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  @media screen and (min-width: 429px) {
+    width: 496px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  }
+}
+
+.background .title {
+  color: $white-color;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.background {
+  background-color: $primary-color;
+}
+
+.secondary-title {
+  @media screen and (min-width: 0px) {
+    margin-bottom: 72px;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+  }
+}
+
+.third-title {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  @media screen and (min-width: 0px) {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 429px) {
+    text-align: start;
+  }
+}
+
+.form-subscribe .forth-title {
+  @media screen and (min-width: 0px) {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: var(--white-color);
+  }
+}

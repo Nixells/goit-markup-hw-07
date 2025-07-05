@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -23,7 +23,7 @@
             <div class="container header">
               <nav class="nav">
                 <div class="WebStudio">
-                  <a href="./index.html">
+                  <a class="link" href="./index.html">
                     <span class="logo web">Web</span
                     ><span class="logo studio">Studio</span>
                   </a>
@@ -33,9 +33,9 @@
                   <button type="button" class="js-open-menu"
                   aria-expanded="false"
                   aria-controls="mobile-menu">
-                    <svg class="icon">
-                      <use href="./images/hamburger.svg"></use>
-                    </svg>
+                   <svg class="icon" style="width:32px; height:22px;">
+                    <use href="./images/symbol-defs.svg#icon-ham"></use>
+                   </svg>
                   </button>
                   <button class="js-close-menu">
                     <svg class="icon-vector" style="width:8px; height:8px;">
@@ -141,25 +141,25 @@
                       <label class="modal-input">
                         <span class="label-text">Name</span>
                         <input type="text" name="register"/>
-                        <svg class="input-icon name">
-                          <use href="./images/name.svg"></use>
-                        </svg>
+                        <svg class="input-icon name" style="width: 18px; height:24px">
+                          <use href="./images/symbol-defs.svg#icon-name"></use>
+                         </svg>
                         </label>
 
                       <label class="modal-input">
                         <span class="label-text">
                         Phone</span>
                         <input type="tel" name="register"/>
-                        <svg class="input-icon phone">
-                          <use href="./images/phone.svg"></use>
+                        <svg class="input-icon phone" style="width: 18px; height:24px">
+                          <use href="./images/symbol-defs.svg#icon-phone"></use>
                         </svg>
                       </label>
 
                       <label class="modal-input">
                         <span class="label-text">Email</span>
                         <input type="email" name="register"/>
-                        <svg class="input-icon mail" >
-                          <use href="./images/mail.svg"></use>
+                        <svg class="input-icon mail" style="width: 18px; height:24px">
+                          <use href="./images/symbol-defs.svg#icon-mail"></use>
                         </svg>
                       </label>
 

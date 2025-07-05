@@ -1,0 +1,72 @@
+.link.current::before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  background-color: $button-portfolio;
+  bottom: 0;
+  right: 0;
+  border-radius: 16px;
+  @media screen and (max-width: 428px) {
+    display: none;
+  }
+}
+
+.WebStudio a:nth-child(2),
+.help a,
+.item > a {
+  padding: 24px 0;
+}
+
+.help {
+  @media screen and (min-width: 0px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 429px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.link-help {
+  @media screen and (min-width: 429px) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-right: 16px;
+  }
+}
+
+.link-help.mail {
+  @media screen and (min-width: 429px) {
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
+
+.link-help.telephone {
+  @media screen and (min-width: 429px) {
+    padding-bottom: 16px;
+    padding-top: 6px;
+  }
+}
+
+.item .link.current {
+  position: relative;
+}
+
+.nav .item:not(:last-child) {
+  margin-right: 40px;
+  @media screen and (max-width: 428px) {
+    margin-right: 0px;
+  }
+}
+
+h2,
+h3,
+h5,
+h6 {
+  color: $primary-color;
+}

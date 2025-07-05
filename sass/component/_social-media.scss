@@ -1,0 +1,57 @@
+footer .social-media {
+  @media screen and (max-width: 428px) {
+    min-width: 208px;
+    text-align: center;
+    margin: 72px 0;
+  }
+}
+
+.social-media .list {
+  margin: 0 auto;
+  width: 208px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media .item {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  background-color: $but-border;
+  border-radius: 50%;
+  text-align: center;
+  transition: background-color 250ms $animation-cubic,
+    color 250ms $animation-cubic;
+}
+
+.social-media .link {
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+}
+
+.link .icon {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  fill: $white-color;
+}
+
+.social-media .item:hover,
+.social-media .item:focus {
+  background-color: $web;
+}
+
+.social-media .list {
+  width: 232px;
+}

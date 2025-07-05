@@ -1,0 +1,91 @@
+.modal-input {
+  position: relative;
+  width: 360px;
+  height: 58px;
+  margin-bottom: 8px;
+}
+
+.modal-input.comment {
+  margin-bottom: 16px;
+}
+
+.modal-input input[name="register"] {
+  position: relative;
+  margin: 0;
+  padding: 16px;
+  padding-left: 38px;
+  width: 360px;
+  height: 40px;
+  border: 1px solid $modal-label-bcg;
+  border-radius: 4px;
+  transition: border-color 250ms $animation-cubic;
+}
+
+.modal-input textarea[name="register"] {
+  width: 360px;
+  height: 120px;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid $modal-label-bcg;
+  margin: 0;
+  border-radius: 4px;
+  transition: border-color 250ms $animation-cubic;
+}
+
+.modal-input.policy {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 360px;
+  height: 16px;
+  margin-bottom: 0px;
+}
+
+.modal-input textarea {
+  resize: none;
+}
+
+.modal-input.comment {
+  display: inline-block;
+  height: 138px;
+  width: 360px;
+}
+
+.modal-input .private-policy {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  margin-bottom: 4px;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  color: $web;
+  margin-bottom: 0px;
+}
+
+.modal-submit {
+  display: block;
+  border: 1px solid $white-color;
+  margin: 24px auto;
+  width: 169px;
+  height: 56px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 250ms $animation-cubic,
+    color 250ms $animation-cubic, box-shadow 250ms $animation-cubic,
+    border-color 250ms $animation-cubic;
+}
+
+.modal-input input[name="register"]:focus,
+.modal-input textarea[name="register"]:focus,
+.form-subscribe input:focus {
+  border-color: $web;
+  outline: none;
+}
+
+.modal-input .checkbox {
+  appearance: none;
+}

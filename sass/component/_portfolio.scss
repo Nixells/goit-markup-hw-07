@@ -1,0 +1,82 @@
+.button.portfolio {
+  background-color: var(--bg-secondary);
+  color: var(--web);
+  border-color: var(--but-border);
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  transition: background-color 250ms var(--animation-cubic),
+    color 250ms var(--animation-cubic),
+    border-color 250ms var(--animation-cubic);
+}
+
+.container-margin.images {
+  padding: 0px 156px;
+  padding-bottom: 120px;
+}
+
+.container.portfolio .list {
+  width: 1128px;
+}
+
+.list .item-button:not(:last-child) {
+  margin-right: 23px;
+}
+
+.img-portfolio .list {
+  margin: 0;
+  width: 1131px;
+  min-height: 420px;
+}
+
+.list .img-wrap:not(:nth-child(3n)) {
+  margin-right: 23px;
+}
+
+.list .img-wrap:nth-child(-n + 6) {
+  margin-bottom: 48px;
+}
+
+.list .img-wrap:nth-child(1) .container-margin.images {
+  padding: 0px 156px;
+}
+
+.img-wrap .content-portfolio {
+  padding: 32px 0px;
+  padding-left: 16px;
+}
+
+.img-wrap {
+  border: 1px solid var(--but-border);
+}
+
+.img-wrap:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.img-thumb {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
+.overlay-img {
+  position: absolute;
+  background-color: var(--web);
+  width: 360px;
+  height: 300px;
+  top: 100%;
+  color: var(--white-color);
+  padding: 32px;
+  transform: translateY(100%);
+  transition: transform 250ms var(--animation-cubic);
+}
+
+.link-portfolio:hover .overlay-img,
+.link-portfolio:focus .overlay-img {
+  transform: translateY(-100%);
+}

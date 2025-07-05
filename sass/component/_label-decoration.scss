@@ -1,0 +1,30 @@
+.label-text.policy {
+  position: absolute;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  margin-bottom: 4px;
+  letter-spacing: 0.04em;
+  margin-bottom: 0px;
+  width: 338px;
+  top: 50%;
+  left: 24px;
+  transform: translateY(-50%);
+}
+
+.modal-form label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: $modal-label-color;
+}
+
+.label-text {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  margin-bottom: 4px;
+  letter-spacing: 0.04em;
+}

@@ -1,0 +1,9 @@
+.perspectives.group {
+  @media screen and (min-width: 0px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
+}
