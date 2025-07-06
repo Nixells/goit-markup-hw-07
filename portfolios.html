@@ -20,11 +20,89 @@
       <div class="container header">
         <nav class="nav">
           <div class="WebStudio">
-            <a href="./index.html">
+            <a class="link" href="./index.html">
               <span class="logo web">Web</span
               ><span class="logo studio">Studio</span>
             </a>
           </div>
+          <div class="mobile-burger">
+            <div class="button-group">
+              <button
+                type="button"
+                class="js-open-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+              >
+                <svg class="icon" style="width: 32px; height: 22px">
+                  <use href="./images/symbol-defs.svg#icon-ham"></use>
+                </svg>
+              </button>
+              <button class="js-close-menu">
+                <svg class="icon-vector" style="width: 8px; height: 8px">
+                  <use href="./images/symbol-defs.svg#icon-vector"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="menu-container js-menu-container" id="mobile-menu">
+              <ul class="mobile-menu">
+                <li class="item link">
+                  <a href="" class="link current">Studio</a>
+                </li>
+                <li class="item link">
+                  <a class="link" href="./portfolios.html">Portfolio</a>
+                </li>
+                <li class="item link">
+                  <a class="link" href="">Contacts</a>
+                </li>
+                <li class="item">
+                  <a class="link current" href="">+11 (000) 111-11-11</a>
+                </li>
+                <li class="item">
+                  <a class="link mail" href="">info@devstudio.com</a>
+                </li>
+                <ul class="social-media mobile-menu">
+                  <li class="item">
+                    <a href="" class="link">
+                      <svg class="icon">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="item">
+                    <a href="" class="link">
+                      <svg class="icon">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="item">
+                    <a href="" class="link">
+                      <svg class="icon">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="item">
+                    <a href="" class="link">
+                      <svg class="icon">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+
           <ul class="list">
             <li class="item">
               <a href="./index.html" class="link">Studio</a>
@@ -35,10 +113,10 @@
             <li class="item"><a href="" class="link">Contacts</a></li>
           </ul>
           <div class="help">
-            <a href="mailto:info@devstudio.com" class="link-help">
+            <a href="mailto:info@devstudio.com" class="link-help mail">
               <i>info@devstudio.com</i>
             </a>
-            <a href="tel:+380961111111" class="link-help">
+            <a href="tel:+380961111111" class="link-help telephone">
               <i>+38 096 111 11 11</i>
             </a>
           </div>

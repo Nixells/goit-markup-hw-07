@@ -25,7 +25,7 @@ body a {
   padding: 0px;
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 1px) {
   .container {
     width: 428px;
   }
@@ -161,16 +161,6 @@ body a {
     width: 264px;
     height: 224px;
   }
-}
-
-.container.portfolio {
-  width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-top: 96px;
-  padding-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container-margin.customers {
@@ -1428,7 +1418,6 @@ div .button.order:focus,
     width: 264px;
     height: 112px;
     margin-right: 24px;
-    text-align: center;
   }
 }
 @media screen and (min-width: 1439px) {
@@ -1597,6 +1586,25 @@ footer .social-media .list {
   transition: background-color 250ms var(--animation-cubic), color 250ms var(--animation-cubic), border-color 250ms var(--animation-cubic);
 }
 
+.content-portfolio .third-title {
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.container-margin.footer .third-title {
+  color: var(--white-color);
+}
+
+.container.portfolio {
+  width: 1470px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container-margin.images {
   padding: 0px 156px;
   padding-bottom: 120px;
@@ -1604,6 +1612,21 @@ footer .social-media .list {
 
 .container.portfolio .list {
   width: 1128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-margin.customers .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .list .item-button:not(:last-child) {
@@ -1612,6 +1635,11 @@ footer .social-media .list {
 
 .img-portfolio .list {
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 1131px;
   min-height: 420px;
 }
@@ -1650,18 +1678,18 @@ footer .social-media .list {
 
 .overlay-img {
   position: absolute;
-  background-color: var(--web);
+  background-color: #4d5ae5;
   width: 360px;
   height: 300px;
   top: 100%;
-  color: var(--white-color);
+  color: #ffffff;
   padding: 32px;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: -webkit-transform 250ms var(--animation-cubic);
-  transition: -webkit-transform 250ms var(--animation-cubic);
-  transition: transform 250ms var(--animation-cubic);
-  transition: transform 250ms var(--animation-cubic), -webkit-transform 250ms var(--animation-cubic);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-portfolio:hover .overlay-img,

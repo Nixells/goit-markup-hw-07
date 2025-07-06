@@ -1,5 +1,5 @@
 .container {
-  @media screen and (min-width: 0px) {
+  @media screen and (min-width: 1px) {
     width: 428px;
   }
 
@@ -111,16 +111,6 @@
     width: 264px;
     height: 224px;
   }
-}
-
-.container.portfolio {
-  width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-top: 96px;
-  padding-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container-margin.customers {
