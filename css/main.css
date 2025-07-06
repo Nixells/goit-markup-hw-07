@@ -417,6 +417,12 @@ body a {
   }
 }
 
+@media screen and (min-width: 1439px) {
+  .content-text {
+    letter-spacing: 0.019em;
+  }
+}
+
 .link.current::before {
   content: "";
   width: 100%;
