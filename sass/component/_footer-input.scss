@@ -49,7 +49,19 @@
 
   @media screen and (min-width: 429px) {
     position: absolute;
-    transform: translateY(88%);
+    top: 85%;
+    transform: translateY(-50%);
     margin-left: 24px;
+  }
+
+  @media screen and (min-width: 1439px) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.subscribe {
+  @media screen and (min-width: 429px) {
+    position: relative;
   }
 }

@@ -34,23 +34,33 @@
 
 .container-margin {
   padding: 96px 0;
+  margin: 0 auto;
   @media screen and (max-width: 428px) {
     width: 428px;
-    margin: 0 auto;
   }
 
   @media screen and (min-width: 429px) {
     width: 768px;
   }
+
+  @media screen and (min-width: 1439px) {
+    width: 1440px;
+    padding: 120px 156px;
+  }
 }
 
 .container-margin.our-team {
+  margin: 0 auto;
   @media screen and (min-width: 0px) {
     padding: 96px 82px;
   }
 
   @media screen and (min-width: 429px) {
     padding: 96px 108px;
+  }
+
+  @media screen and (min-width: 1439px) {
+    padding: 120px 156px;
   }
 }
 
@@ -61,6 +71,7 @@
 
 .container-margin.footer {
   background-color: $primary-color;
+  margin: 0 auto;
   @media screen and (min-width: 0px) {
     width: 428px;
     height: 664px;
@@ -73,16 +84,33 @@
     height: 456px;
     padding: 96px 108px;
   }
+
+  @media screen and (min-width: 1439px) {
+    width: 1440px;
+    height: 312px;
+    padding: 100px 156px;
+  }
 }
 
 .container-margin.universal {
+  margin: 0 auto;
   @media screen and (min-width: 429px) {
     padding: 96px 16px;
+  }
+
+  @media screen and (min-width: 1439px) {
+    padding: 0 156px;
+    padding-top: 120px;
   }
 }
 
 .container-margin.universal .item {
   padding: 0px;
+
+  @media screen and (min-width: 1439px) {
+    width: 264px;
+    height: 224px;
+  }
 }
 
 .container.portfolio {
@@ -112,5 +140,10 @@
   @media screen and (min-width: 429px) {
     width: 768px;
     padding: 96px 108px;
+  }
+
+  @media screen and (min-width: 1439px) {
+    width: 1440px;
+    padding: 120px 156px;
   }
 }

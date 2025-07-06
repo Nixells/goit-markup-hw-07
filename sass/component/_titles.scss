@@ -75,6 +75,14 @@
   @media screen and (min-width: 429px) {
     text-align: start;
   }
+
+  @media screen and (min-width: 1439px) {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-top: 8px;
+  }
 }
 
 .form-subscribe .forth-title {

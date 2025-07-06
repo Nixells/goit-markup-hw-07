@@ -25,6 +25,11 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media screen and (min-width: 1439px) {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 }
 
 .forth-title-team {

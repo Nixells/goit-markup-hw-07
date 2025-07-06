@@ -8,6 +8,11 @@
   @media screen and (min-width: 429px) {
     margin: 0 0;
   }
+
+  @media screen and (min-width: 1439px) {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 }
 
 .list.customers .icon {
@@ -35,7 +40,7 @@
   }
 }
 
-@media screen and (min-width: 429px) {
+@media screen and (max-width: 1439px) {
   .list.customers > .item:not(:nth-child(n + 3)) {
     margin-bottom: 72px;
   }
@@ -44,12 +49,6 @@
 @media screen and (max-width: 428px) {
   .list.customers > .item:not(:nth-child(2n)) {
     margin-right: 16px;
-  }
-}
-
-@media screen and (min-width: 429px) {
-  .list.customers .item:not(:nth-child(3n + 3)) {
-    margin-right: 24px;
   }
 }
 

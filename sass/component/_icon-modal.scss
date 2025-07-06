@@ -19,7 +19,7 @@
 
 .input-icon.name {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 16px;
   width: 18px;
   height: 24px;
@@ -28,7 +28,7 @@
 
 .input-icon.phone {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 16px;
   width: 18px;
   height: 24px;
@@ -38,9 +38,10 @@
 .input-icon.mail {
   position: absolute;
   left: 16px;
+  top: 65%;
   width: 18px;
   height: 24px;
-  transform: translateY(-135%);
+  transform: translateY(-50%);
 }
 
 .modal-input .input-icon {
