@@ -1,0 +1,43 @@
+.container-margin.footer .third-title {
+  color: $white-color;
+}
+
+.container.portfolio {
+  margin: 0 auto;
+  @media screen and (min-width: 0px) {
+    width: 428px;
+    padding: 48px 16px;
+  }
+
+  @media screen and (min-width: 429px) {
+    width: 768px;
+    padding: 32px 91px;
+  }
+
+  @media screen and (min-width: 1439px) {
+    width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 96px;
+    padding-bottom: 72px;
+  }
+}
+
+.container-margin.images {
+  @media screen and (min-width: 0px) {
+    padding: 0 16px;
+  }
+
+  @media screen and (min-width: 1439px) {
+    padding: 0px 156px;
+    padding-bottom: 120px;
+  }
+}
+
+.container.portfolio .list {
+  @media screen and (min-width: 1439px) {
+    width: 1128px;
+    display: flex;
+    justify-content: center;
+  }
+}

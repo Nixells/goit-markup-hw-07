@@ -1,0 +1,38 @@
+.button.portfolio {
+  background-color: $bg-secondary;
+  color: $web;
+  border-color: $but-border;
+  border-radius: 4px;
+  transition: background-color 250ms $animation-cubic,
+    color 250ms $animation-cubic, border-color 250ms $animation-cubic;
+
+  @media screen and (min-width: 0px) {
+    padding: 8px 16px;
+  }
+
+  @media screen and (min-width: 1439px) {
+    padding: 12px 24px;
+  }
+}
+
+.link-portfolio {
+  @media screen and (min-width: 0px) {
+    display: inline-block;
+    width: 396px;
+    height: 400px;
+  }
+
+  @media screen and (min-width: 429px) {
+    width: 356px;
+    height: 420px;
+  }
+
+  @media screen and (min-width: 1439px) {
+    width: 360px;
+  }
+}
+
+.link-portfolio:hover .overlay-img,
+.link-portfolio:focus .overlay-img {
+  transform: translateY(-100%);
+}

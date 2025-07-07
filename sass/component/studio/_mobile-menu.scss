@@ -1,11 +1,11 @@
 .mobile-burger {
-  @media screen and (min-width: 428px) {
+  @media screen and (min-width: 429px) {
     display: none;
   }
 }
 
 .menu-container.js-menu-container.is-open {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     left: 0;
     pointer-events: all;
     position: fixed;
@@ -13,7 +13,7 @@
 }
 
 .menu-container.js-menu-container {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     padding-top: 74px;
     position: fixed;
     width: 100%;
@@ -33,7 +33,7 @@
 }
 
 .social-media.mobile-menu {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     display: inline-flex;
     width: 328px;
     height: 40px;
@@ -44,7 +44,7 @@
 }
 
 .mobile-menu .link {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -55,7 +55,7 @@
 }
 
 .mobile-menu .link.current {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -66,19 +66,19 @@
 }
 
 .mobile-menu .item:not(:nth-child(3n)) {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     margin-bottom: 40px;
   }
 }
 
 .mobile-menu .item:nth-child(3n) {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     margin-bottom: 284px;
   }
 }
 
 .mobile-menu {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     margin: 0px;
     text-align: start;
     display: flex;
@@ -87,13 +87,13 @@
 }
 
 .mobile-menu .item.link {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     display: inline-block;
   }
 }
 
 .mobile-menu .link.mail {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -103,7 +103,7 @@
 }
 
 .js-open-menu {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     display: inline-block;
     width: 32px;
     height: 22px;
@@ -117,7 +117,7 @@
 }
 
 .js-close-menu {
-  @media screen and (max-width: 427px) {
+  @media screen and (max-width: 428px) {
     position: fixed;
     display: inline-block;
     width: 24px;

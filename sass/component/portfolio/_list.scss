@@ -1,0 +1,56 @@
+.list .item-button:not(:last-child) {
+  @media screen and (min-width: 429px) {
+    margin-right: 23px;
+  }
+}
+
+.list .item-button {
+  @media screen and (min-width: 0px) {
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list > .img-wrap:not(:nth-child(2n)) {
+    margin-right: 23px;
+  }
+}
+
+@media screen and (min-width: 1439px) {
+  .list > .img-wrap:not(:nth-child(3n)) {
+    margin-right: 23px;
+  }
+
+  .list > .img-wrap:not(:nth-child(-n + 6)) {
+    margin-bottom: 0px;
+  }
+}
+
+.list .img-wrap {
+  @media screen and (min-width: 0px) {
+    margin-bottom: 48px;
+  }
+}
+
+.list .img-wrap:nth-child(1) .container-margin.images {
+  @media screen and (min-width: 429px) {
+    padding: 0px 156px;
+  }
+}
+
+.img-portfolio .list {
+  @media screen and (min-width: 429px) {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  @media screen and (min-width: 1439px) {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1131px;
+    min-height: 420px;
+  }
+}
