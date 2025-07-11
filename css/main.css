@@ -47,23 +47,6 @@ body a {
   margin: auto auto;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7))), url("../images/hero.jpg");
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("../images/hero.jpg");
-}
-@media screen and (min-width: 429px) {
-  .container.title {
-    height: 436px;
-  }
-}
-@media screen and (min-width: 1439px) {
-  .container.title {
-    height: 600px;
-  }
-}
-@media screen and (min-width: 1439px) {
-  .container.title {
-    padding-top: 188px;
-  }
 }
 
 .container-margin {
@@ -198,6 +181,55 @@ body a {
   .container-margin.customers {
     width: 1440px;
     padding: 120px 156px;
+  }
+}
+
+@media screen and (min-width: 0px) and (min-device-pixel-ratio: 1), screen and (min-width: 0px) and (-webkit-min-device-pixel-ratio: 1), screen and (min-width: 0px) and (min-resolution: 96dpi), screen and (min-width: 0px) and (min-resolution: 1dppx) {
+  .container.title {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7))), url("../images/hero1x-428.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("../images/hero1x-428.jpg");
+  }
+}
+@media screen and (min-width: 0px) and (min-device-pixel-ratio: 2), screen and (min-width: 0px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 0px) and (min-resolution: 192dpi), screen and (min-width: 0px) and (min-resolution: 2dppx) {
+  .container.title {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7))), url("../images/hero2x-428.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("../images/hero2x-428.jpg");
+  }
+}
+@media screen and (min-width: 429px) and (min-device-pixel-ratio: 1), screen and (min-width: 429px) and (-webkit-min-device-pixel-ratio: 1), screen and (min-width: 429px) and (min-resolution: 96dpi), screen and (min-width: 429px) and (min-resolution: 1dppx) {
+  .container.title {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7))), url("../images/hero1x-768.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("../images/hero1x-768.jpg");
+  }
+}
+@media screen and (min-width: 429px) and (min-device-pixel-ratio: 2), screen and (min-width: 429px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 429px) and (min-resolution: 192dpi), screen and (min-width: 429px) and (min-resolution: 2dppx) {
+  .container.title {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7))), url("../images/hero2x-768.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("../images/hero2x-768.jpg");
+  }
+}
+@media screen and (min-width: 1439px) {
+  .container.title {
+    padding: 188px 0;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1439px) and (min-width-pixel-ratio: 1), screen and (min-width: 1439px) and (-webkit-min-device-pixel-ratio: 1), screen and (min-width: 1439px) and (min-resolution: 96dpi), screen and (min-width: 1439px) and (min-resolution: 1dppx) {
+  .container.title {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7))), url("../images/hero1x-1440.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("../images/hero1x-1440.jpg");
+  }
+}
+@media screen and (min-width: 1439px) {
+  .container.title {
+    padding: 180px 0;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1439px) and (min-width-pixel-ratio: 2), screen and (min-width: 1439px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1439px) and (min-resolution: 192dpi), screen and (min-width: 1439px) and (min-resolution: 2dppx) {
+  .container.title {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7))), url("../images/hero2x-1440.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("../images/hero2x-1440.jpg");
   }
 }
 
@@ -1860,6 +1892,7 @@ footer .social-media .list {
 }
 @media screen and (min-width: 1439px) {
   .overlay-img {
+    display: block;
     width: 360px;
     height: 300px;
     padding: 32px;
